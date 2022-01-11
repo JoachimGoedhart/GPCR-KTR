@@ -6,7 +6,7 @@ R-scripts to generate figures from source data. The data and figures are part of
 **Notes**:
 * This is work in progress
 * Since this is work in progress, the figures shown here and the figures in the preprint do not match exactly.
-* Not all of the data is available in this repository, since the files are too large. Upon publication, the data will be available at: 10.5281/zenodo.5836623
+* Not all of the data is available in this repository, since the files are too large. Upon publication, the data will be available at: [10.5281/zenodo.5836623](https://doi.org/10.5281/zenodo.5836623)
 
 
 Overview of the figures, which are the output of the R-scripts:
