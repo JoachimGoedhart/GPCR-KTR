@@ -17,7 +17,7 @@ heatmap_plot <- function(df, x_var, y_var, group_var, Compound) {
   group_var <- enquo(group_var)
   
   plot <- ggplot(df, aes(!!x_var,!!y_var,fill=!!group_var)) + geom_tile() +
-  xlab("Time post stimulation (min)") + 
+  xlab("time post stimulation (min)") + 
     ylab("") + 
     scale_x_continuous(breaks=seq(0,60, by=15), labels=seq(0,60, by=15), limits=c(-8,60))  +
     scale_fill_gradientn(colours=c("white", "pink", "red", "violet", "blue", "blue4"), values = rescale(c(-0.3, 0.1, 0.4, 0.7, 1.3, 1.8)), na.value="white", guide="colorbar", limits = range(-0.3,1.82)) +  
