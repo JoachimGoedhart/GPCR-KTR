@@ -4,7 +4,7 @@ R-scripts to generate figures from source data. The data and figures are part of
 
 
 **Notes**:
-* Not all of the data is available in this repository, since the files are too large. Upon publication, the data will be available at: [10.5281/zenodo.5836623](https://doi.org/10.5281/zenodo.5836623)
+* Not all of the source data is available in this repository, since the files are too large. Upon publication, the data will be available at: [10.5281/zenodo.5836623](https://doi.org/10.5281/zenodo.5836623)
 
 
 Overview of the figures, which are the output of the R-scripts:
